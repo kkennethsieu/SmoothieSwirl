@@ -21,7 +21,7 @@ function Header() {
     <header className="flex h-14 border-b border-stone-500 bg-gradient-to-r from-cyan-500 to-blue-500 p-3 sm:h-16 md:h-20">
       <div className="m-3 flex w-full items-center justify-between">
         <Link to="/" className="w-[85px] p-2 sm:w-[95px] md:w-[135px]">
-          <img src="assets/smoothie.png" />
+          <img src="/assets/smoothie.png" />
         </Link>
         <form onSubmit={handleSubmit}>
           <input
